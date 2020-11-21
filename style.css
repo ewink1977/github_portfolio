@@ -10,7 +10,7 @@ div#wrapper {
     padding: 10px;
     background-color: #F0EFEF;
     border-radius: 10px;
-    box-shadow: 3px;
+    box-shadow: 3px 3px 5px grey;
     min-height: 1100px;
 }
 
@@ -48,3 +48,41 @@ div#wrapper {
             width: 40%;
             height: 40%;
         }
+
+        div#wrapper div#main div#links {
+            padding: 5px;
+        }
+
+            div#wrapper div#main div#links div.linkbox {
+                border-radius: 15px;
+                background-color: #D2CFD2;
+                box-shadow: 2px 2px 2px grey;
+                padding: 5px;
+            }
+
+            div#wrapper div#main div#links div.linkbox img {
+                display: inline-block;
+                vertical-align: middle;
+                width: 20%;
+            }
+
+            div#wrapper div#main div#links div.linkbox h3 {
+                display: inline-block;
+                width: 75%;
+                text-align: center;
+                font-family: 'Anton', sans-serif;
+                font-size: 2em;
+                color: navy;
+            }
+
+            div#wrapper div#main div#links div.linkbox p {
+                display: inline-block;
+                margin-left: .5em;
+                font-family: 'Stylish', sans-serif;
+                color: darkslategrey;
+            }
+
+            div#wrapper div#main div#links div.linkbox a {
+                text-decoration: none;
+                color: black
+            }
