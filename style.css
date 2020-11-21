@@ -1,0 +1,39 @@
+/* font-family: 'Antic', sans-serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Archivo Black', sans-serif; -- Heading
+font-family: 'Stylish', sans-serif; */
+
+div#wrapper {
+    margin: 1em;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 3px;
+    min-height: 1100px;
+}
+
+    div#wrapper header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    div#wrapper header h1 {
+        display: inline-block;
+        font-family: 'Archivo Black', sans-serif;
+        margin-left: 1em;
+        font-size: 3em;
+    }
+
+    div#wrapper header h2 {
+        display: inline-block;
+        font-family: 'Antic', sans-serif;
+        margin-right: 1em;
+        font-size: 1.5em;
+    }
+
+    div#wrapper div#main {
+        display: flex;
+        justify-content: space-evenly;
+        min-height: 400px;
+    }
