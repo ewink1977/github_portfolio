@@ -3,10 +3,12 @@ font-family: 'Anton', sans-serif;
 font-family: 'Archivo Black', sans-serif; -- Heading
 font-family: 'Stylish', sans-serif; */
 
+/* #D2CFD2 */
+
 div#wrapper {
     margin: 1em;
     padding: 10px;
-    background-color: lightgray;
+    background-color: #F0EFEF;
     border-radius: 10px;
     box-shadow: 3px;
     min-height: 1100px;
@@ -35,5 +37,14 @@ div#wrapper {
     div#wrapper div#main {
         display: flex;
         justify-content: space-evenly;
+        align-items: center;
         min-height: 400px;
     }
+
+        div#wrapper div#main img.profilepic {
+            display: inline-block;
+            box-sizing: border-box;
+            border: 10px solid #D2CFD2;
+            width: 40%;
+            height: 40%;
+        }
