@@ -1,17 +1,9 @@
-/* font-family: 'Antic', sans-serif;
-font-family: 'Anton', sans-serif;
-font-family: 'Archivo Black', sans-serif; -- Heading
-font-family: 'Stylish', sans-serif; */
-
-/* #D2CFD2 */
-
 div#wrapper {
     margin: 1em;
     padding: 10px;
     background-color: #F0EFEF;
     border-radius: 10px;
     box-shadow: 3px 3px 5px grey;
-    min-height: 1100px;
 }
 
     div#wrapper header {
@@ -41,10 +33,29 @@ div#wrapper {
         min-height: 400px;
     }
 
+    div#wrapper p.summary {
+        padding: 10px;
+        font-family: 'Antic', sans-serif;
+        font-size: 1em;
+        text-align: justify;
+        color: darkslategrey;
+    }
+
+    div#wrapper p.summary a {
+        text-decoration: none;
+        color: darkblue;
+    }
+
+    div#wrapper p.summary a:hover {
+        text-decoration: none;
+        color: darkred;
+    }
+
         div#wrapper div#main img.profilepic {
             display: inline-block;
             box-sizing: border-box;
             border: 10px solid #D2CFD2;
+            border-radius: 10px;
             width: 40%;
             height: 40%;
         }
@@ -58,6 +69,7 @@ div#wrapper {
                 background-color: #D2CFD2;
                 box-shadow: 2px 2px 2px grey;
                 padding: 5px;
+                margin-bottom: 5px;
             }
 
             div#wrapper div#main div#links div.linkbox img {
